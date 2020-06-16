@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#15202B</color>
+    <color name="colorPrimaryDark">#192939</color>
+    <color name="colorAccent">#4D7CFE</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBlackSmall">#222</color>
+    <color name="colorBlackLight">#aaa</color>
+    <color name="colorBack">#778ca2</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorBlackSmall</item>
+        <item>@color/colorBlackSmall</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/colorBlackLight</item>
+        <item>@color/colorBlackLight</item>
+    </array>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#2661FA</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+    <color name="newColor">#f0f0f0</color>
+    <color name="smallText">#778ca2</color>
+
+    <color name="dashboardFrag">#f8fafb</color>
+    <color name="colorDanger">#D21C1C</color>
+    <color name="colorEmp">#4d7cfe</color>
+
+    <color name="colorHeadings">#eaeaea</color>
+    <color name="colorBody">#98A9BC</color>
+    <color name="colorButton">#4D7CFE</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    
+</resources>

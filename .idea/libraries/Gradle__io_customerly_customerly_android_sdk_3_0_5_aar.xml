@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.customerly:customerly-android-sdk:3.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/247978cf2d151921b5f53c780c9fc287/jetified-customerly-android-sdk-3.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/247978cf2d151921b5f53c780c9fc287/jetified-customerly-android-sdk-3.0.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.customerly/customerly-android-sdk/3.0.5/309270f9ddf752e88ac138309c13a256ea39ca1/customerly-android-sdk-3.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.customerly/customerly-android-sdk/3.0.5/6c09f2d4dc5843c19db0788c45d4799b828d93cf/customerly-android-sdk-3.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

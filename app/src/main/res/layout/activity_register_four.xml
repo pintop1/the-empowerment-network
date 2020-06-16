@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFour"
+    android:background="@drawable/register_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:background="@drawable/register_bg_line"
+            android:paddingTop="20dp"
+            android:layout_marginBottom="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_password"
+                android:layout_gravity="center"
+                android:textSize="17sp"
+                android:textColor="@color/colorHeadings"
+                android:fontFamily="@font/poppins_regular"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:background="@drawable/edittext_register"
+                android:layout_marginTop="15dp"
+                android:hint="@string/password"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="13sp"
+                android:textColor="@color/colorBlackSmall"
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"/>
+            <TextView
+                android:text="@string/passformat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:textColor="#ff0000"
+                android:textSize="11sp"
+                android:fontFamily="@font/poppins_light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:background="@drawable/edittext_register"
+                android:layout_marginTop="15dp"
+                android:hint="@string/confirm_password"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="13sp"
+                android:textColor="@color/colorBlackSmall"
+                android:id="@+id/confirm_password"
+                android:inputType="textPassword"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp" />
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/finsih"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/finish"
+                android:background="@drawable/register_btn"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorButtonText"
+                android:fontFamily="@font/poppins_light"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp" />
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:columnCount="2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="5dp"
+                    android:background="@color/colorAccent"
+                    android:layout_columnWeight="2"
+                    />
+            </GridLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

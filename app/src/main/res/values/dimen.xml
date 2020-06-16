@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="body_main_top">20dp</dimen>
+    <dimen name="body_main_bottom">20dp</dimen>
+    <dimen name="body_main_right">20dp</dimen>
+    <dimen name="body_main_left">20dp</dimen>
+
+    <dimen name="hello_big">30sp</dimen>
+    <dimen name="margin_main_img">140dp</dimen>
+    <dimen name="main_img_width">100dp</dimen>
+    <dimen name="main_img_height">100dp</dimen>
+
+    <dimen name="logo_width">200dp</dimen>
+    <dimen name="logo_height">100dp</dimen>
+
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="slider_bottom_background">100dp</dimen>
+
+    <dimen name="welcome_height">180dp</dimen>
+    <dimen name="welcome_title_size">20sp</dimen>
+    <dimen name="welcome_description_size">15sp</dimen>
+
+    <dimen name="logo_small">100dp</dimen>
+    <dimen name="login_title">20sp</dimen>
+    <dimen name="drawable_padding">20dp</dimen>
+    <dimen name="edit_padding">10dp</dimen>
+    <dimen name="text_normal_size">15sp</dimen>
+
+    <!--dimes for design 3-->
+    <dimen name="headerTextSize">30sp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginCardRadius">20dp</dimen>
+    <dimen name="loginViewsMargin">20dp</dimen>
+
+    <dimen name="signup_text_margin_top">10dp</dimen>
+
+</resources>

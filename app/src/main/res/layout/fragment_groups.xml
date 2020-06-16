@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.GroupsFragment"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_view_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            shimmer:duration="800">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/groups_loader" />
+
+            </LinearLayout>
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:id="@+id/main"
+            android:visibility="gone">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/ic_search_white_24dp"
+                android:drawablePadding="15dp"
+                android:hint="@string/ben_search"
+                android:textColor="@color/colorBody"
+                android:textColorHint="@color/colorBody"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="13sp"
+                android:id="@+id/search"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/recyclerview"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/empty"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/no_group"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="17sp"
+                android:textColor="@color/colorBody"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/no_group_desc"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="14sp"
+                android:textColor="@color/colorBody"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@drawable/register_btn"
+                android:textColor="@color/whiteCardColor"
+                android:text="@string/new_group"
+                android:id="@+id/navigate"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

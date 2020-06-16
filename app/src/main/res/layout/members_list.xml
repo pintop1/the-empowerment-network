@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/member_list_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/unknown_person"
+                android:id="@+id/avatar"
+                android:layout_gravity="start"
+                android:paddingTop="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="start"
+                android:layout_marginTop="-3dp"
+                android:layout_marginStart="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorHeadings"
+                    android:fontFamily="@font/poppins_light"
+                    android:paddingTop="10dp"
+                    android:id="@+id/dname"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:text="Dawodu Babatunde"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBody"
+                    android:fontFamily="@font/poppins_light"
+                    android:paddingTop="0dp"
+                    android:id="@+id/dphone"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:text="07013117251"
+                    />
+            </LinearLayout>
+
+        </GridLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/did"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/menuOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="&#8942;"
+            android:textColor="@color/colorBody"
+            android:textAppearance="?android:textAppearanceLarge" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

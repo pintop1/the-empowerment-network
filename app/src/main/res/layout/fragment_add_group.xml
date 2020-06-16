@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddGroupFragment"
+    android:background="@drawable/dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@drawable/edittext_register"
+            android:layout_marginTop="15dp"
+            android:hint="@string/enter_your_group_description"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlackSmall"
+            android:id="@+id/description"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:layout_marginEnd="20dp"
+            android:maxLines="4"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp">
+        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:background="@drawable/register_btn"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/newColor"
+            android:fontFamily="@font/poppins_light"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

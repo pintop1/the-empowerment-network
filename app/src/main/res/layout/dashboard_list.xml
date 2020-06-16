@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/task_overview_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/contain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/image"
+                android:layout_marginEnd="20dp"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:textColor="@color/colorBody"
+                android:textSize="14sp"
+                android:maxLines="1"/>
+            <TextView
+                android:id="@+id/action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:textColor="@color/colorBody"
+                android:textSize="14sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"/>
+        </GridLayout>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/colorBody"
+            android:textSize="14sp"
+            android:layout_marginTop="-12dp"
+            android:layout_marginStart="60dp"
+            />
+        <TextView
+            android:id="@+id/did"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

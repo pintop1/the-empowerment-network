@@ -1,0 +1,31 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 10 Sep 2019 19:47:39 at https://coderthemes.com/upvex/layouts/dark/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://coderthemes.com/upvex/layouts/dark/index.html -O1 "C:\Users\LISA\Desktop\New folder\TEN" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:52:55	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://apexcharts.com/samples/assets/series1000.js
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/Trident/ (from https://coderthemes.com/upvex/layouts/dark/assets/libs/custombox/custombox.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/Edge/ (from https://coderthemes.com/upvex/layouts/dark/assets/libs/custombox/custombox.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/GET (from https://coderthemes.com/upvex/layouts/dark/assets/libs/custombox/custombox.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/assets/libs/summernote/font/summernote.eot?1d9aeaaff0a8939558a45be6cd52cd4c (from https://coderthemes.com/upvex/layouts/dark/assets/libs/summernote/summernote-bs4.css)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/assets/libs/summernote/font/summernote.woff?1d9aeaaff0a8939558a45be6cd52cd4c (from https://coderthemes.com/upvex/layouts/dark/assets/libs/summernote/summernote-bs4.css)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/assets/libs/summernote/font/summernote.ttf?1d9aeaaff0a8939558a45be6cd52cd4c (from https://coderthemes.com/upvex/layouts/dark/assets/libs/summernote/summernote-bs4.css)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/assets/libs/img/sprite-green.png (from https://coderthemes.com/upvex/layouts/dark/assets/libs/hopscotch/hopscotch.min.css)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/assets/libs/treeview/32px.png (from https://coderthemes.com/upvex/layouts/dark/assets/libs/treeview/style.css)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/assets/libs/treeview/throbber.gif (from https://coderthemes.com/upvex/layouts/dark/assets/libs/treeview/style.css)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/assets/libs/treeview/40px.png (from https://coderthemes.com/upvex/layouts/dark/assets/libs/treeview/style.css)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/blots/ (from https://coderthemes.com/upvex/layouts/dark/assets/libs/quill/quill.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/formats/ (from https://coderthemes.com/upvex/layouts/dark/assets/libs/quill/quill.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/xl/worksheets/sheet1.xml (from https://coderthemes.com/upvex/layouts/dark/assets/libs/datatables/buttons.html5.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/xl/workbook.xml (from https://coderthemes.com/upvex/layouts/dark/assets/libs/datatables/buttons.html5.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/xl/styles.xml (from https://coderthemes.com/upvex/layouts/dark/assets/libs/datatables/buttons.html5.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/[Content_Types].xml (from https://coderthemes.com/upvex/layouts/dark/assets/libs/datatables/buttons.html5.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/buttons.pdf (from https://coderthemes.com/upvex/layouts/dark/assets/libs/datatables/buttons.html5.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://coderthemes.com/upvex/layouts/dark/assets/libs/pdfmake/pdfmake.min.js)
+19:54:36	Error: 	"Not Found" (404) at link https://coderthemes.com/upvex/layouts/dark/HEAD (from https://coderthemes.com/upvex/layouts/dark/assets/libs/pdfmake/pdfmake.min.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 56 seconds : 334 links scanned, 314 files written (28580701 bytes overall) [11270801 bytes received at 27093 bytes/sec], 21962836 bytes transferred using HTTP compression in 243 files, ratio 20%, 22.2 requests per connection
+(19 errors, 1 warnings, 0 messages)
